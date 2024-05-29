@@ -19,16 +19,33 @@ main {
     width: calc(100% / 3);
 }
 /*stili della pagina*/
+.content {
+    margin: 10px;
+    position: relative;
+}
 .content img {
     width: 100%;
 }
 .label {
     padding: 10px;
     color: white;
+    position: absolute;
+    
+    bottom: 40px;
 }
 .bg-green {
     background-color: green;
+    left: 70px;
 }
 .bg-red {
     background-color: red;
+    left: 0px;
+}
+.bg-green, .bg-red {
+    margin-right: 10px;
+}
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0px;
 }
