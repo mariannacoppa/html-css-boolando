@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*elementi comuni*/
+main {
+    margin: 20px;
+}
+/*classi di layout*/
+.container {
+    max-width: 1200px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-33 {
+    width: calc(100% / 3);
+}
+/*stili della pagina*/
+.content img {
+    width: 100%;
+}
+.label {
+    padding: 10px;
+    color: white;
+}
+.bg-green {
+    background-color: green;
+}
+.bg-red {
+    background-color: red;
+}
