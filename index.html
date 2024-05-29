@@ -5,15 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html-css-boolando</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-33">
-                    <div class="content-header"></div>
+        <div class="container h">
+            <div class="row h">
+                <div class="col left">
+                    <ul class="content left">
+                        <li><a href="">Donna</a></li>
+                        <li><a href="">Uomo</a></li>
+                        <li><a href="">Bambini</a></li>
+                    </ul>
                 </div>
-            
+                <div class="col medium">
+                    <div class="content medium">
+                        <img src="img/boolean-logo.png" class="logo" alt="logo">
+                    </div>
+                </div>
+                <div class="col right">
+                    <div class="content right">
+                        <i class='fas fa-user-alt'></i>
+                        <i class='far fa-heart'></i>
+                        <i class='fas fa-shopping-bag'></i>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -21,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/1.webp" alt="item" class="visible-image">
                             <img src="./img/1b.webp" alt="item b" class="hidden-image">
@@ -41,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/2.webp" alt="item" class="visible-image">
                             <img src="./img/2b.webp" alt="item b" class="hidden-image">
@@ -59,26 +81,27 @@
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/3.webp" alt="item" class="visible-image">
                             <img src="./img/3b.webp" alt="item b" class="hidden-image">
                             <div class="labels">
                                 <span class="label bg-red">-30%</span>
+                                <!-- <span class="label bg-green">Sostenibilità</span> -->
                             </div>
                             <div class="heart">&hearts;</div>
                         </div>
                         <div class="card-text">
-                            <span class="brand">Come Zucchero Filato</span>
+                            <span class="brand">Levi's</span>
                             <h3 class="name">VOGLIA DI COLORI PASTELLO</h3>
-                            <strong class="new price">129.99 &euro;</strong>
-                            <del class="old price"> 184.99 &euro;</del>
+                            <strong class="new price">14.99 &euro;</strong>
+                            <del class="old price"> 29.99 &euro;</del>
                             
                         </div>
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/4.webp" alt="item" class="visible-image">
                             <img src="./img/4b.webp" alt="item b" class="hidden-image">
@@ -98,39 +121,42 @@
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/5.webp" alt="item" class="visible-image">
                             <img src="./img/5b.webp" alt="item b" class="hidden-image">
-                            <!-- <div class="labels">
-                                <span class="label bg-red">-50%</span>
-                                <span class="label bg-green">Sostenibilità</span>
-                            </div> -->
+                            <div class="labels">
+                                <!-- <span class="label bg-red">-50%</span> -->
+                                <!-- <span class="label bg-green">Sostenibilità</span> -->
+                            </div>
                             <div class="heart">&hearts;</div>
                         </div>
                         <div class="card-text">
-                            <span class="brand">Maya Deluxe</span>
+                            <span class="brand">Levi's</span>
                             <h3 class="name">STRIPE BODICE</h3>
-                            <strong class="new price">99.99 &euro;</strong>
+                            <strong class="new price">14.99 &euro;</strong>
+                            <!-- <del class="old price"> 29.99 &euro;</del> -->
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-33">
-                    <div class="content">
+                    <div class="content-main">
                         <div class="images">
                             <img src="./img/6.webp" alt="item" class="visible-image">
                             <img src="./img/6b.webp" alt="item b" class="hidden-image">
                             <div class="labels">
-                                <!-- <span class="label bg-red">-50%</span> -->
+                                <span class="label bg-red">-50%</span>
                                 <span class="label bg-green">Sostenibilità</span>
                             </div>
                             <div class="heart">&hearts;</div>
                         </div>
                         <div class="card-text">
-                            <span class="brand">Esprit</span>
-                            <h3 class="name">MAGLIONE - BLACK</h3>
-                            <strong class="new price">29.99 &euro;</strong>
-                            <!-- <del class="old price"> 35 &euro;</del> -->
+                            <span class="brand">Levi's</span>
+                            <h3 class="name">MAGLIONE BLACK</h3>
+                            <strong class="new price">14.99 &euro;</strong>
+                            <!-- <del class="old price"> 29.99 &euro;</del> -->
+                            
                         </div>
                     </div>
                 </div>
@@ -138,7 +164,34 @@
         </div>
     </main>
     <footer>
-
+        <div class="container footer">
+            <div class="row">
+                <div class="col-left">
+                    <div class="cont-left">
+                        <h4 class="azienda">Boolando s.r.l.</h4>
+                        <ul class="elenco">
+                            <li>Informazioni legali</li>
+                            <li>Privacy</li>
+                            <li>diritto di recesso</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-medium">
+                    <div class="cont-medium"></div>
+                </div>
+                <div class="col-right">
+                    <div class="cont-right">
+                        <h6 class="contatti">Trovaci anche su</h6>
+                        <div class="icons">
+                            <i class="fa fa-twitter" style="font-size:24px"></i>
+                            <i class="fa fa-instagram" style="font-size:24px"></i>
+                            <i class="fa fa-facebook-square" style="font-size:24px"></i>
+                            <i class="fa fa-youtube-play" style="font-size:24px"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
